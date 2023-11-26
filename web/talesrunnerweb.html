@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+
+  
+  <title>talesrunner web</title>  
+<link href="./main.d8e0d294.css" rel="stylesheet">
+<style>
+.image-block{
+  background: url('thumbs/talesrunner.jpeg') no-repeat;
+  width: 100%;
+  height: 100%;       
+}
+
+
+
+
+  /*메뉴바 css*/
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    background-color: #333;
+}
+ul:after{
+    content:'';
+    display: block;
+    clear:both;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 150px;
+    text-decoration: none;
+    font-size: 20px;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #4CAF50;
+}
+
+/*이벤트 문구*/
+   .ghost-button {
+                align-items: center;
+                color: #d9cbb3;
+                text-align: center; 
+                opacity: 0;
+            }
+            .ghost-button:hover {
+              padding: 15px 20px;
+                opacity: 1;
+               color:#FF0000;
+               font-size: 5px;
+            }
+
+/*사전예약버튼*/
+            .reservation-button {
+                display: block; 
+                width : 100%;
+                height: auto;
+                border: none;
+                outline: none;
+                background: none;
+                box-shadow: none;
+                text-align: center;
+                background-color:transparent;
+
+            }
+</style>
+
+</head>
+
+<body class="">
+
+<!-- 헤더  -->
+<div class="background-color-layer" style="background-image: url('thumbs/talesrunner.jpeg'")></div>
+
+<main class="content-wrapper">
+  <header class="white-text-container section-container">
+    <div class="text-center">
+      <h1>Talesrunner eclipse event</h1>
+      <p>뒤틀린 그림자 속으로</p>
+    </div>
+  </header>
+ 
+ <!--메뉴바-->
+  <ul>
+      <li><a class="active" href="#main">메인</a></li>
+      <li><a href="#game">게임 소개</a></li>
+      <li><a href="#contents">컨텐츠 소개</a></li>
+      <li><a href="#event">이벤트</a></li>
+    </ul><br><br><br>
+  
+
+
+<!-- 메인 -->
+<div id = "main" style = "text-align:center;" >
+ <div class="container">
+   <div class="row">
+     <div class="col-xs-12">
+
+        <div class="card">
+          <div class="card-block">
+              <div class="image-block">
+
+             <h2>talesrunner eclipse event</h2>
+             <h2>지금 사전 예약 하세요 </h2>
+            <div class="row">
+              <div class="col-md-4">
+               </div>
+      <audio src="bgm/talesrunner.mp3" controls autoplay loop></audio> <div><a href="#" onClick="alert('쿠폰번호 : hello')" class="ghost-button">?</a></div>
+    </div>
+        <br><br>
+              </div>
+              <div class="col-md-8">
+              
+
+              </div>
+            </div>
+          </div>
+        </div>
+         <button type="button" class="reservation-button" onclick="location.href='memberJoin.jsp';"><img src="thumbs/button1.jpg"></button><br><br><br>
+      </div>
+
+<!-- 게임 소개 -->
+
+ <div id = "game">
+  <div class="container">
+   <div class="row">
+     <div class="col-xs-12">
+
+        <div class="card">
+          <div class="card-block">
+            <h2>About the game</h2>
+            <h3>공격받는 동화나라</h3><br>
+          
+
+              <p>
+        드디어 모습을 드러낸 카인과, 카인에 의해 어둠에 빠진 성냥팔이 소녀 <br> 
+        불길이 치솟는 동화나라는 엉망이 되고, 평화로운 동화 맵이 일그러지고 말았는데...<br><br><br>
+        <strong>위험에 빠진 동화나라를 위해 복구 원정대원이 되어 모두 어둠에 맞서 싸우자!</strong></p>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+<!--컨텐츠-->
+     <div id = "contents">
+        <div class="card">
+          <div class="card-block">
+            <h2>Contents</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <img src="./assets/character.png" class="img-responsive" alt="">
+                <h3 class="h5">캐릭터</h3>
+                <p>새로운 스토리 캐릭터 영매사 로로아 출시  &nbsp;<a href="#" onClick="alert('쿠폰번호 : good')" class="ghost-button">?</a>
+        사전예약하면 증정되는 여러 상품들과 함께 테일즈런너를 즐겨보자.&nbsp;</p>
+              </div>
+              <div class="col-md-4">
+                <img src="./assets/map.png" class="img-responsive" alt="">
+                <h3 class="h5">새로운 맵</h3>
+                <p>새로운 맵 인 성냥팔이 소녀와 죽음의 ox게임이 출시되었다 이에 대해 알아보자.&nbsp;
+        개인전 8인으로 진행되는 장애물 피하기 성냥팔이 소녀.&nbsp;
+        팀전 10vs10으로 진행되는 리더를 따라 가 중간 문제를 해결하는 죽음의 ox게임.&nbsp;
+        </p>
+              </div>
+              <div class="col-md-4">
+                <img src="./assets/clothes.png" class="img-responsive" alt="">
+                <h3 class="h5">새로운 옷</h3>
+                <p>새로운 아이템으로 출시한 새로운 옷에 대해 알아보자. &nbsp;
+        동화나라에 접속하니 내가 수문장? 로스트라이트 세트.&nbsp;
+         타락도 ROCK이다..? 타락한 앙리 2세 복장.&nbsp;
+        최면에 빠져들듯 보랏빛 글로우 퍼플, 이리디센트.&nbsp;</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!--이벤트-->
+        <div id = "event">
+        <div class="card">
+          <div class="card-block">
+            <h2>Events</h2>
+            
+
+            <div class="work-experience">
+              <small class="date">사전 예약 기간</small>
+              <h3 class="h5 date-title">이벤트에 참여하세요</h3>
+              
+              <p>이 페이지에 숨어있는 쿠폰 번호를 찾아보세요<br>
+        마우스를 가져다대고 숨어있는 ?를 찾으면 쿠폰 번호가 튀어나와요~<br>
+      3개의 쿠폰 번호를 모두 획득하고 재밌는 게임을 기다려보자!</p>
+      <button type="button" onclick="location.href='../main.jsp'">홈으로</button>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+<!--그밖-->
+        <div class="card">
+          <div class="card-block">
+            <h2>Etc</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="education-experience">
+                  <small class="date">2021.12.29</small>
+                  <h3 class="h5 date-title">신캐 출시</h3>
+                  <p>영매사 로로아가 인게임 적용됩니다</p>
+                </div>
+                
+              </div>
+              <div class="col-md-4">
+                <div class="education-experience">
+                  <small class="date">2021.12~</small>
+                  <h3 class="h5 date-title">신맵출시</h3>
+                  <p>새로운 맵들이 출시될 예정입니다</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="education-experience">
+                  <small class="date">회사 정보</small>
+                  <a href="event.html" onClick="alert('새창이 뜰테니 놀라지 마세요')" class="ghost-button">?</a>
+                  <h3 class="h5 date-title">Smilegate</h3>
+                  <p>tel 063-123-1234</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+     scrollRevelation('.card');
+  });
+</script>
+
+
+<script type="text/javascript" src="./main.bc58148c.js"></script></body>
+
+</html>
