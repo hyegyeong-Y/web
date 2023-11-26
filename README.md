@@ -2,4 +2,4 @@
 
 main.jsp is main web page
 
-develope with eclipse, tomcat, mysql
+develop with eclipse, tomcat, mysql
